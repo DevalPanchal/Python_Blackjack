@@ -4,4 +4,10 @@ This program is designed to demonstrate concepts of python, using object orienta
 ## How to Play
 The objective of this game is for the playerbeat the dealer by getting a count as close to 21 as possible, without going over 21.
 
-- **Card Values** -> the values of the numerical cards (2 - 10) are their respective values, face cards (Jack, Queen, King) have a value of 10, value of the ace is decided by the program to be over 1 or 11, depending on which will not make you lose.
+- **Card Values**: the values of the numerical cards (2 - 10) are their respective values, face cards (Jack, Queen, King) have a value of 10, value of the ace is decided by the program to be over 1 or 11, depending on which will not make you lose.
+
+- **Procedure**: The dealer and the player will be dealt cards from a shuffled deck of cards. One of the cards from the dealer will be hidden from your view. It will be up to the player if they would like to stay (with their current value) or hit (get a new card). Who ever has the closest value to 21 but not going over is the winner of the game.
+
+## Technologies used
+- **VS-Code** this project was fully coded using the text-editor vscode.
+- **Code-Style** this project utilizes object oriented style programming. This means that the cards are pre-generated and shuffled as the game starts, and the card that is dealt to the player is removed from the deck. 
